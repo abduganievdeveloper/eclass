@@ -6,19 +6,19 @@ import {Provider} from 'react-redux';
 import {connect} from 'react-redux';
 import {store} from './admin/store.js';
 import {BrowserRouter} from 'react-router-dom';
+import createHashHistory from 'history/createHashHistory';
 class App extends Component {
  
   render() {
-
+    const hashHistory = createHashHistory({ basename: process.env.PUBLIC_URL });
     return (
       <div>
       <Provider store={store}>
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <BrowserRouter history={hashHistory}>
       
         <Route path="/admin" component={Admins}/>
       </BrowserRouter>
       </Provider>
-      <Admin/>
       <p>your app is working</p>  
       </div>
     );

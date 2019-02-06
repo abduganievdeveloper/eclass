@@ -2,10 +2,11 @@
   "name": "eclass",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://abduganievdeveloper.github.io/eclass/",
+  "homepage": "https://abduganievdeveloper.github.io/eclass/",
   "dependencies": {
     "bootstrap": "^4.2.1",
     "gh-pages": "^2.0.1",
+    "history": "^4.7.2",
     "jquery": "^3.3.1",
     "popper": "^1.0.1",
     "react": "^16.7.0",
@@ -20,8 +21,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
