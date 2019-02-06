@@ -19,7 +19,6 @@ class App extends Component {
         <Route path="/admin" component={Admins}/>
       </Router>
       </Provider>
-      <p>your app is working</p>  
       </div>
     );
   }
