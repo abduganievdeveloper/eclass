@@ -10,6 +10,7 @@ import {connect} from 'react-redux';
 import {store} from './store.js';
 import {login} from './store.js';
 import {logout} from './store.js';
+import {Container} frm
 import {
     Collapse,
     Navbar,
@@ -25,7 +26,9 @@ import {
     Row,
     Col,
     Container,
-    Jumbotron
+    Jumbotron,
+    Container,
+    Alert
 } from 'reactstrap';
   
 import 'bootstrap/dist/css/bootstrap.css';
@@ -203,7 +206,13 @@ class Index extends React.Component
 {
     render()
     {
-        return(<div>Home</div>)
+        return(<Container>
+                <Row>
+                <br/>
+                <br/>
+                <Alert color="light">Control the system</Alert>
+                </Row>
+            </Container>)
     }
 }
 
