@@ -1,0 +1,80 @@
+.container-fluid
+{
+  margin:0;
+  padding:0;
+  max-width:100%;
+  overflow: hidden;
+}
+.categorylist
+{
+  border-right:1px solid #007bff;
+  min-height:100%;
+  color:#333438;
+}
+.userlist
+{
+  padding-left:20px !important;
+  padding-right:20px !important;
+  padding-top:50px !important;
+  padding-left:20px !important;
+}
+.border-curved
+{
+  border-radius:5px;
+}
+.nav-link
+{
+  cursor:pointer
+}
+.myModel
+{
+  position: absolute;
+  min-height:60%;
+  width:60%;
+  background-color: white;
+  box-shadow: 0px 2px 2px 2px silver;
+  border-radius: 5px;
+  top:10px;
+  left:20%;
+  padding:30px;
+  line-height: 40px;
+}
+.closeButton
+{
+  float:right;
+  margin-top:-10px;
+  margin-right:10px;
+  color:crimson;
+  background-color: transparent;
+  border:0;
+  cursor:pointer;
+}
+.navbar
+{
+  height:60px!important;
+  background-color: #20232a !important;
+}
+.active .nav-link
+{
+  color:#61dafb !important;
+}
+.card
+{
+  min-height:300px;
+}
+.card-columns
+{
+  padding-left:10%;
+  padding-right:10%;
+}
+.card-body
+{
+  color:white;
+}
+.groups
+{
+  padding:10px;
+  min-height:800px;
+  background-color: #f7f7f7;
+  text-align:right;
+}
