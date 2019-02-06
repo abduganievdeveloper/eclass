@@ -14,10 +14,10 @@ class App extends Component {
     return (
       <div>
       <Provider store={store}>
-      <BrowserRouter history={hashHistory}>
+      <Router history={hashHistory}>
       
         <Route path="/admin" component={Admins}/>
-      </BrowserRouter>
+      </Router>
       </Provider>
       <p>your app is working</p>  
       </div>
