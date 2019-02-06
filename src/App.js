@@ -9,11 +9,12 @@ class App extends Component {
  
   render() {
     return (
-      <div>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Provider store={store}>
       
         <Route path="/admin" component={Admins}/>
       </Provider>
+      </BrowserRouter>
       <p>your app is working</p>  
       </div>
     );
