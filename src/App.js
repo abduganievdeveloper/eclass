@@ -9,10 +9,12 @@ class App extends Component {
  
   render() {
     return (
+      <div>
       <Provider store={store}>
         <Route path="/admin" component={Admins}/>
       </Provider>
-
+      <p>your app is working</p>  
+      </div>
     );
   }
 }
