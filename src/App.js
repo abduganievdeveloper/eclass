@@ -9,15 +9,9 @@ import {BrowserRouter} from 'react-router-dom';
 class App extends Component {
  
   render() {
-  
+
     return (
       <div>
-      <Provider store={store}>
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
-      
-        <Route path="/admin" component={Admins}/>
-      </BrowserRouter>
-      </Provider>
       <p>your app is working</p>  
       </div>
     );
