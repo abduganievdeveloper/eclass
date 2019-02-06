@@ -139,7 +139,7 @@ class Login extends React.Component
             <br/>
             <br/>
                 <Jumbotron>
-                    <h2 className="display-3">Please log in to continue</h2><hr>
+                    <h2 className="display-3">Please log in to continue</h2><hr/>
                     <Row>
                         <Col>
                             <Form>
