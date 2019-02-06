@@ -10,7 +10,6 @@ import {connect} from 'react-redux';
 import {store} from './store.js';
 import {login} from './store.js';
 import {logout} from './store.js';
-import {Container} frm
 import {
     Collapse,
     Navbar,
@@ -136,8 +135,11 @@ class Login extends React.Component
     {
         return(
             <Container>
+            <br/>
+            <br/>
+            <br/>
                 <Jumbotron>
-                    <h2>Please log in to continue</h2>
+                    <h2 className="display-3">Please log in to continue</h2><hr>
                     <Row>
                         <Col>
                             <Form>
