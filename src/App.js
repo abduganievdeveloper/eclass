@@ -5,7 +5,7 @@ import { Admin } from './admin/Admin';
 import {Provider} from 'react-redux';
 import {connect} from 'react-redux';
 import {store} from './admin/store.js';
-import {BrowserRouter} from 'react-router-dom';
+import {Router} from 'react-router-dom';
 import createHashHistory from 'history/createHashHistory';
 class App extends Component {
  
