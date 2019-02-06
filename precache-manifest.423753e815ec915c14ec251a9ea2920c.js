@@ -4,23 +4,23 @@ self.__precacheManifest = [
     "url": "abduganievdeveloper.github.io/eclass/static/js/runtime~main.a1c5706c.js"
   },
   {
-    "revision": "e7d9056fca75bf2d1085",
-    "url": "abduganievdeveloper.github.io/eclass/static/js/main.e7d9056f.chunk.js"
+    "revision": "a268f6e2662bb1085239",
+    "url": "abduganievdeveloper.github.io/eclass/static/js/main.a268f6e2.chunk.js"
   },
   {
-    "revision": "ef8aacd7eeb0aaf55fe1",
-    "url": "abduganievdeveloper.github.io/eclass/static/js/1.ef8aacd7.chunk.js"
+    "revision": "e8feafc2e2b0d4bc6433",
+    "url": "abduganievdeveloper.github.io/eclass/static/js/1.e8feafc2.chunk.js"
   },
   {
-    "revision": "e7d9056fca75bf2d1085",
+    "revision": "a268f6e2662bb1085239",
     "url": "abduganievdeveloper.github.io/eclass/static/css/main.b43fb651.chunk.css"
   },
   {
-    "revision": "ef8aacd7eeb0aaf55fe1",
+    "revision": "e8feafc2e2b0d4bc6433",
     "url": "abduganievdeveloper.github.io/eclass/static/css/1.3b4caad2.chunk.css"
   },
   {
-    "revision": "54ed9cab5614efbc3c3788ad8631fd06",
+    "revision": "7a44478e0ee7a6867fa7a98a9cc469c8",
     "url": "abduganievdeveloper.github.io/eclass/index.html"
   }
 ];
