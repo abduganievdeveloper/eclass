@@ -9,7 +9,7 @@ import {BrowserRouter} from 'react-router-dom';
 class App extends Component {
  
   render() {
-    const history
+  
     return (
       <div>
       <Provider store={store}>
