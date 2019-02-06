@@ -9,14 +9,15 @@ import {BrowserRouter} from 'react-router-dom';
 class App extends Component {
  
   render() {
+    const history
     return (
       <div>
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Provider store={store}>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
       
         <Route path="/admin" component={Admins}/>
-      </Provider>
       </BrowserRouter>
+      </Provider>
       <p>your app is working</p>  
       </div>
     );
