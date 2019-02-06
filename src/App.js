@@ -9,6 +9,7 @@ class App extends Component {
  
   render() {
     return (
+      <div>
       <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Provider store={store}>
       
