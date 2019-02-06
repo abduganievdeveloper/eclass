@@ -11,6 +11,7 @@ class App extends Component {
     return (
       <div>
       <Provider store={store}>
+      
         <Route path="/admin" component={Admins}/>
       </Provider>
       <p>your app is working</p>  
