@@ -9,7 +9,7 @@ import {BrowserRouter} from 'react-router-dom';
 class App extends Component {
  
   render() {
-    
+
     return (
       <div>
       <Provider store={store}>
@@ -18,6 +18,7 @@ class App extends Component {
         <Route path="/admin" component={Admins}/>
       </BrowserRouter>
       </Provider>
+      <Admin/>
       <p>your app is working</p>  
       </div>
     );
